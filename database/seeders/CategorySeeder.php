@@ -1,0 +1,28 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+use App\Models\Category;
+use Illuminate\Support\Str;
+use Faker\Factory as Faker;
+class CategorySeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        $faker = Faker::create();
+
+        for ($i = 1; $i <= 100; $i++) {
+            $name = ucfirst($faker->unique()->words(rand(1, 3), true)); // e.g., "Smart Home Devices"
+            Category::firstOrCreate(
+                ['slug' => Str::slug($name)],
+                ['name' => $name]
+            );
+        }
+    }
+}

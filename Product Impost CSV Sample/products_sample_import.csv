@@ -1,0 +1,11 @@
+name,description,price,image,category_id,stock
+Product 1,Description for product 1,3775,https://picsum.photos/id/101/200/200,11,475
+Product 2,Description for product 2,2949,https://picsum.photos/id/102/200/200,10,36
+Product 3,Description for product 3,2882,https://picsum.photos/id/103/200/200,10,14
+Product 4,Description for product 4,423,https://picsum.photos/id/104/200/200,17,30
+Product 5,Description for product 5,4945,https://picsum.photos/id/105/200/200,19,202
+Product 6,Description for product 6,4136,https://picsum.photos/id/106/200/200,7,61
+Product 7,Description for product 7,2056,https://picsum.photos/id/107/200/200,14,271
+Product 8,Description for product 8,3235,https://picsum.photos/id/108/200/200,19,175
+Product 9,Description for product 9,1903,https://picsum.photos/id/109/200/200,13,125
+Product 10,Description for product 10,1579,https://picsum.photos/id/110/200/200,10,170
