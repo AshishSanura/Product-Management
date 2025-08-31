@@ -32,7 +32,7 @@ PUSHER_SCHEME=${VITE_PUSHER_SCHEME}
 PUSHER_APP_CLUSTER=${VITE_PUSHER_APP_CLUSTER}
 
 # WEBPUSH VAPID KEYS
-VITE_PUSHER_APP_KEY=entr_your_public_key
+VAPID_PUBLIC_KEY=entr_your_public_key
 VAPID_PRIVATE_KEY=entr_your_private_key
 VAPID_SUBJECT=mailto:enter your mail
 
